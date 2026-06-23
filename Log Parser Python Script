@@ -1,0 +1,22 @@
+# Simple log parser - extracts failed login attempts
+# Input: wazuh-alerts.log          
+# Output: Count of failed logins by IP, timestamp of last attempt
+
+def parse_log(file_path):
+    failed_logins = {}
+    with open(file_path, 'r') as f:
+        for line in f:
+            if "Failed password" in line or "Logon Failure" in line:
+                # Extract IP and timestamp
+                # Store in dictionary
+                pass
+    return failed_logins
+
+def main():
+    results = parse_log("sample_logs.txt")
+    print(f"Found {len(results)} unique IPs with failed logins")
+    for ip, count in results.items():
+        print(f"{ip}: {count} attempts")
+
+if __name__ == "__main__":
+    main()
