@@ -1,6 +1,14 @@
 # Evidence of Homelab includes
 
 - Detections documented in Wazuh
+
+Wazuh-alert-encoded-command.png
+Wazuh-alert-encoded-command-severity.png
+
+
+
+
+
 - Proxmox Setup
 - Log parser
 - Sysmon event viewer
