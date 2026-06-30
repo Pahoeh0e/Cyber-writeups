@@ -7,8 +7,8 @@
 
 
 ### Screenshot Evidence 
-![Wazuh Dashboard](Cyber-writeups/screenshots/Wazuh/Wazuh-alert-encoded-command.png)
-![Wazuh Severity](Cyber-writeups/screenshots/Wazuh/Wazuh-alert-encoded-command-severity.png)
+![Wazuh Dashboard](screenshots/Wazuh/Wazuh-alert-encoded-command.png)
+![Wazuh Severity](screenshots/Wazuh/Wazuh-alert-encoded-command-severity.png)
 
 
 
