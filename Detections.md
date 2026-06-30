@@ -14,5 +14,5 @@
 
 Opened Powershell as Admin on Windows Server and executed an encoded command using the -enc flag:
 
-'''powershell
+
 powershell -enc UwB0AGEAcgB0AC0AUwBsAGUAZQBwACAALQBzACAAMQAwAA==
