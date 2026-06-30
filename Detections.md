@@ -16,3 +16,9 @@ Opened Powershell as Admin on Windows Server and executed an encoded command usi
 
 
 powershell -enc UwB0AGEAcgB0AC0AUwBsAGUAZQBwACAALQBzACAAMQAwAA==
+
+### Remediation
+
+Lab: Documented for detection validation
+Production: Quarantine endpoint, decode command, parent process analysis, baseline anomaly detection, investigate user intent
+Follow-up: Add custom Wazuh rule for -enc flag detection
